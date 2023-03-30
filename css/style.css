@@ -238,7 +238,7 @@
 }
 
 .container section#welcome-main-content div#welcome-middle-content div#account a#account-button:hover {
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
   -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
           box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -505,7 +505,7 @@
 
 .container #wrapper-content div#top-background-gradient {
   position: relative;
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
   border-radius: 3.5em 3.5em 0 0;
   height: 170px;
 }
