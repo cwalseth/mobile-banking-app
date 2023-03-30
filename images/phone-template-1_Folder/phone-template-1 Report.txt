@@ -1,0 +1,75 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: phone-template-1.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 750 px x 1472 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Helvetica Neue UltraLight (TrueType)
+Helvetica Neue Light (TrueType)
+Helvetica Neue Bold (TrueType)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/ac7236yr/Downloads/iPhone 6, 7, 8 Plus-Page 1/w-square-2@2x.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 132K, 184 by 184 pixels
+Dimensions: 184 by 184 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/ac7236yr/Downloads/iPhone 6, 7, 8 Plus-Page 1/Group 5@2x.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 132K, 184 by 184 pixels
+Dimensions: 184 by 184 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/ac7236yr/Downloads/iPhone 6, 7, 8 Plus-Page 1/Group 4@2x.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 132K, 184 by 184 pixels
+Dimensions: 184 by 184 points 
+Resolution: 72 by 72 pixels per inch
+
+
+/Users/ac7236yr/Downloads/smartphone-icon-png/smartphone-icon-png@2x.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 4301K, 748 by 1472 pixels
+Dimensions: 748 by 1472 points 
+Resolution: 72 by 72 pixels per inch

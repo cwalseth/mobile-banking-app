@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@100;400&family=Roboto:wght@100;300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../HelveticaNeue-Bold.ttf");
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container section#login {
+  position: absolute;
+  z-index: 5;
+  width: 343px;
+  height: 693px;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container section#login img#logo {
+  width: 200px;
+  height: auto;
+}
+
+.container section#login section#login-form-section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container section#login section#login-form-section input#username,
+.container section#login section#login-form-section input#password,
+.container section#login section#login-form-section button#submit {
+  display: block;
+  margin: 1em auto;
+  width: 70%;
+  font-weight: 900;
+}
+
+.container section#login section#login-form-section input#username,
+.container section#login section#login-form-section input#password {
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  padding: 1em;
+  border: none;
+  color: #000;
+  background-color: #fff;
+}
+
+.container section#login section#login-form-section input#username:focus,
+.container section#login section#login-form-section input#password:focus {
+  outline: 0;
+  border: none;
+  background-color: #fcf4ca;
+}
+
+.container section#login section#login-form-section button#submit {
+  padding: 0.75em 1.5em;
+  font-weight: 800;
+  font-size: 1.15em;
+  cursor: pointer;
+  border-radius: 24px;
+  border: 0.05px solid #000;
+  background-color: transparent;
+  width: 50%;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.container section#login section#login-form-section button#submit:active {
+  background-color: #fff;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container section#welcome-main-content {
+  position: absolute;
+  z-index: 4;
+  width: 343px;
+  height: 693px;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container section#welcome-main-content div#welcome-top-content {
+  position: relative;
+  top: 4em;
+  right: 2.5em;
+  color: #fff;
+}
+
+.container section#welcome-main-content div#welcome-top-content div p {
+  font-size: 1.5em;
+}
+
+.container section#welcome-main-content div#welcome-top-content div p:nth-child(1) {
+  letter-spacing: 2px;
+}
+
+.container section#welcome-main-content div#welcome-top-content div p:nth-child(2) {
+  text-transform: uppercase;
+}
+
+.container section#welcome-main-content div#welcome-top-content div h4 {
+  font-weight: 900;
+}
+
+.container section#welcome-main-content div#welcome-middle-content {
+  position: relative;
+  top: 5em;
+  width: 80%;
+}
+
+.container section#welcome-main-content div#welcome-middle-content #checking,
+.container section#welcome-main-content div#welcome-middle-content #savings {
+  height: 120px;
+  background-color: #fff;
+  border-radius: 1em;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  position: relative;
+  z-index: 5;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.container section#welcome-main-content div#welcome-middle-content #checking h3,
+.container section#welcome-main-content div#welcome-middle-content #savings h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.container section#welcome-main-content div#welcome-middle-content #checking p:nth-child(2),
+.container section#welcome-main-content div#welcome-middle-content #savings p:nth-child(2) {
+  font-size: 1.75em;
+  letter-spacing: 2px;
+}
+
+.container section#welcome-main-content div#welcome-middle-content #checking p:nth-child(3),
+.container section#welcome-main-content div#welcome-middle-content #savings p:nth-child(3) {
+  font-size: 0.75em;
+  letter-spacing: 2px;
+  line-height: 2em;
+}
+
+.container section#welcome-main-content div#welcome-middle-content div#account {
+  position: relative;
+  top: -0.25em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  pointer-events: auto;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.container section#welcome-main-content div#welcome-middle-content div#account a#account-button {
+  padding: 0.75em 1.5em;
+  font-weight: 800;
+  font-size: 1.15em;
+  cursor: pointer;
+  border-radius: 24px;
+  border: 0.05px solid #000;
+  text-decoration: none;
+  background-color: transparent;
+  color: #000;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.container section#welcome-main-content div#welcome-middle-content div#account a#account-button:hover {
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container section#welcome-main-content div#welcome-middle-content div#deal {
+  position: relative;
+  top: -0.25em;
+}
+
+.container section#welcome-main-content div#welcome-middle-content div#deal p {
+  margin: 0.25em 0 0 2em;
+  font-weight: 800;
+}
+
+.container section#welcome-main-content div#welcome-middle-content div#deal p img#offer {
+  position: relative;
+  top: 0.2em;
+  width: 1.2em;
+  margin-left: 0.5em;
+}
+
+.container section#welcome-main-content div#welcome-middle-content div#deal div#deal-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.container section#welcome-main-content div#welcome-middle-content div#deal div#deal-icons img {
+  width: 30%;
+}
+
+.container section#welcome-main-content div#welcome-bottom-content {
+  position: relative;
+  top: 5.25em;
+  height: 120px;
+  width: 80%;
+}
+
+.container section#welcome-main-content div#welcome-bottom-content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container section#welcome-main-content div#welcome-bottom-content div div {
+  margin-top: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container section#welcome-main-content div#welcome-bottom-content div div img {
+  width: 50%;
+}
+
+.container section#welcome-main-content div#welcome-bottom-content div div span {
+  font-size: 0.75em;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.container div#checking-main-content {
+  position: absolute;
+  z-index: 4;
+  width: 343px;
+  height: 693px;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container div#checking-main-content div#checking-1 {
+  position: relative;
+  top: 75px;
+  left: 40px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container div#checking-main-content div#checking-1 h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 1em;
+}
+
+.container div#checking-main-content div#checking-1 p:nth-child(2) {
+  font-size: 1.75em;
+  letter-spacing: 2px;
+}
+
+.container div#checking-main-content div#checking-1 p:nth-child(3) {
+  font-size: 0.75em;
+  letter-spacing: 2px;
+}
+
+.container div#checking-main-content div#checking-1 img#exclamation {
+  width: 20px;
+  position: relative;
+  top: -1.25em;
+  left: 130px;
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
+.container div#checking-main-content div#checking-1 img#left {
+  width: 30px;
+  position: relative;
+  right: 95px;
+  top: -70px;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.container div#checking-main-content div#checking-1 img#left:hover {
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.container div#checking-main-content div#checking-data {
+  background-color: #fff;
+  width: 275px;
+  height: 420px;
+  position: absolute;
+  top: 154px;
+  border-radius: 1em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 10fr 10fr 10fr 10fr 10fr 3fr;
+      grid-template-rows: 10fr 10fr 10fr 10fr 10fr 3fr;
+}
+
+.container div#checking-main-content div#checking-data div.checking-data-divs {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid rgba(193, 193, 193, 0.3);
+}
+
+.container div#checking-main-content div#checking-data div.checking-data-divs div:nth-child(1) {
+  padding: 1em;
+}
+
+.container div#checking-main-content div#checking-data div.checking-data-divs div:nth-child(1) img.clock {
+  width: 2em;
+}
+
+.container div#checking-main-content div#checking-data div.checking-data-divs div:nth-child(2) {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container div#checking-main-content div#checking-data div.checking-data-divs div:nth-child(2) div:nth-child(1) {
+  padding: 0.5em 1em 0em 0em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container div#checking-main-content div#checking-data div.checking-data-divs div:nth-child(2) div:nth-child(1) span:nth-child(1) {
+  font-size: 0.5em;
+}
+
+.container div#checking-main-content div#checking-data div.checking-data-divs div:nth-child(2) div:nth-child(1) span:nth-child(2) {
+  margin-left: auto;
+  display: inline-block;
+  font-size: 0.5em;
+}
+
+.container div#checking-main-content div#checking-data div.checking-data-divs div:nth-child(2) div:nth-child(2) {
+  margin-top: 0.25em;
+}
+
+.container div#checking-main-content div#checking-data div.checking-data-divs div:nth-child(2) div:nth-child(2) h3 {
+  font-weight: 800;
+  font-size: 0.75em;
+}
+
+.container div#checking-main-content div#checking-data div.checking-data-divs:nth-child(6) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: red;
+}
+
+.container div#checking-main-content div#checking-data div.checking-data-divs:nth-child(6) p {
+  font-weight: bold;
+  font-size: 0.5em;
+}
+
+.container div#template {
+  width: 352px;
+  height: 693px;
+  position: absolute;
+  background-image: url("../images/phone-template.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  z-index: 2;
+}
+
+.container #wrapper-content {
+  margin: 0 auto;
+  width: 343px;
+  height: 693px;
+  background-color: #e0dfdf;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  border-radius: 3.5em;
+}
+
+.container #wrapper-content div#top-background-gradient {
+  position: relative;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  border-radius: 3.5em 3.5em 0 0;
+  height: 170px;
+}
+
+.container #wrapper-content div#bottom-white-background {
+  position: relative;
+  height: 100px;
+  background-color: #fff;
+  top: 25.8em;
+}
+
+.container #wrapper-content div#full-gradient-background {
+  position: absolute;
+  top: 0;
+  height: 693px;
+  width: 100%;
+  border-radius: 3.5em;
+}
+/*# sourceMappingURL=style.css.map */

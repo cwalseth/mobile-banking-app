@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@100;400&family=Roboto:wght@100;300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+$minWidth: 343px;
+$max-Width: 352px;
+$max-Height: 693px;
+$scale: 0.85;
+$radius1: 3.5em;
+$radius2: 1em;
+$backGround: rgb(224, 223, 223);
+// $gradient1: 180deg, rgb(165, 163, 203), rgb(201, 200, 214);
+$white: #fff;
+$boxShadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+$fw800: 800;
+$gradient1: 225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%;
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../HelveticaNeue-Bold.ttf");
+}
+$HelveticaNeue: HelveticaNeue;
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /////////////////// login
+  section#login {
+
+    position: absolute;
+    z-index: 5;
+    width: $minWidth;
+    height: $max-Height;
+    transform: scale($scale);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img#logo {
+      width: 200px;
+      height: auto;
+    }
+    section#login-form-section {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      input#username,
+      input#password,
+      button#submit {
+        display: block;
+        margin: 1em auto;
+        width: 70%;
+        font-weight: 900;
+      }
+      input#username,
+      input#password {
+        box-shadow: $boxShadow;
+        border-radius: $radius2;
+        padding: 1em;
+        border: none;
+        color: #000;
+        background-color: $white;
+      }
+      input#username:focus,
+      input#password:focus {
+        outline: 0;
+        border: none;
+        background-color: #fcf4ca;
+      }
+      button#submit {
+        padding: 0.75em 1.5em;
+        font-weight: $fw800;
+        font-size: 1.15em;
+        cursor: pointer;
+        border-radius: 24px;
+        border: 0.05px solid #000;
+        background-color: transparent;
+        width: 50%;
+        transition: all 200ms ease-in;
+      }
+      button#submit:active {
+        background-color: $white;
+        box-shadow: $boxShadow;
+      }
+    }
+  }
+  /////////////////// welcome content
+  section#welcome-main-content {
+
+    position: absolute;
+    z-index: 4;
+    width: $minWidth;
+    height: $max-Height;
+    transform: scale($scale);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div#welcome-top-content {
+      position: relative;
+      top: 4em;
+      right: 2.5em;
+      color: $white;
+      div {
+        p {
+          font-size: 1.5em;
+        }
+        p:nth-child(1) {
+          letter-spacing: 2px;
+        }
+        p:nth-child(2) {
+          text-transform: uppercase;
+        }
+        h4 {
+          font-weight: 900;
+        }
+      }
+    }
+    ////////////////welcome top content ends
+    //////////////// welcome middle content starts
+    div#welcome-middle-content {
+      position: relative;
+      top: 5em;
+      width: 80%;
+      #checking,
+      #savings {
+        height: 120px;
+        background-color: $white;
+        border-radius: $radius2;
+        margin: 0 auto;
+        margin-bottom: 1em;
+        position: relative;
+        z-index: 5;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        box-shadow: $boxShadow;
+        cursor: pointer;
+        h3 {
+          text-transform: uppercase;
+          font-weight: $fw800;
+          letter-spacing: 1px;
+          font-size: 1em;
+          line-height: 2em;
+        }
+        p:nth-child(2) {
+          font-size: 1.75em;
+          letter-spacing: 2px;
+        }
+        p:nth-child(3) {
+          font-size: 0.75em;
+          letter-spacing: 2px;
+          line-height: 2em;
+        }
+      }
+      div#account {
+        position: relative;
+        top: -0.25em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        pointer-events: auto;
+        color: rgba(0, 0, 0, 0.6);
+        a#account-button {
+          padding: 0.75em 1.5em;
+          font-weight: $fw800;
+          font-size: 1.15em;
+          cursor: pointer;
+          border-radius: 24px;
+          border: 0.05px solid #000;
+          text-decoration: none;
+          background-color: transparent;
+          color: #000;
+          transition: all 200ms linear;
+        }
+        a#account-button:hover {
+          background-image: linear-gradient($gradient1);
+          box-shadow: $boxShadow;
+        }
+      }
+      div#deal {
+        position: relative;
+        top: -0.25em;
+        p {
+          margin: 0.25em 0 0 2em;
+          font-weight: $fw800;
+          img#offer {
+            position: relative;
+            top: 0.2em;
+            width: 1.2em;
+            margin-left: 0.5em;
+          }
+        }
+        div#deal-icons {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          img {
+            width: 30%;
+          }
+        }
+      }
+    }
+    //////////////// welcome middle content ends
+
+    //////////////// welcome bottom content starts
+    div#welcome-bottom-content {
+      position: relative;
+      top: 5.25em;
+      height: 120px;
+      width: 80%;
+      div {
+        display: flex;
+        justify-content: space-between;
+        div {
+          margin-top: 0.5em;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          img {
+            width: 50%;
+          }
+          span {
+            font-size: 0.75em;
+            font-weight: bold;
+            margin-top: 0.5em;
+          }
+        }
+      }
+    }
+    //////////////// welcome bottom content ends
+  }
+  //////////welcome main content ends
+
+  div#checking-main-content {
+    position: absolute;
+    z-index: 4;
+    width: $minWidth;
+    height: $max-Height;
+    transform: scale($scale);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div#checking-1 {
+      position: relative;
+      top: 75px;
+      left: 40px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      h3 {
+        text-transform: uppercase;
+        font-weight: $fw800;
+        letter-spacing: 1px;
+        font-size: 1em;
+      }
+      p:nth-child(2) {
+        font-size: 1.75em;
+        letter-spacing: 2px;
+      }
+      p:nth-child(3) {
+        font-size: 0.75em;
+        letter-spacing: 2px;
+      }
+      img#exclamation {
+        width: 20px;
+        position: relative;
+        top: -1.25em;
+        left: 130px;
+        transform: scale(0.75);
+      }
+      img#left {
+        width: 30px;
+        position: relative;
+        right: 95px;
+        top: -70px;
+        transform: scale(1.25);
+        cursor: pointer;
+        border-radius: 50%;
+        transition: all 200ms linear;
+      }
+      img#left:hover {
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+      }
+    } //////checking-1 ends
+
+    div#checking-data {
+      background-color: $white;
+      width: 275px;
+      height: 420px;
+      position: absolute;
+      top: 154px;
+      border-radius: $radius2;
+      display: grid;
+      grid-template-rows: 10fr 10fr 10fr 10fr 10fr 3fr;
+      div.checking-data-divs {
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid rgba(193, 193, 193, 0.3);
+        div:nth-child(1) {
+          padding: 1em;
+          img.clock {
+            width: 2em;
+          }
+        }
+        div:nth-child(2) {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          div:nth-child(1) {
+            padding: 0.5em 1em 0em 0em;
+            width: 100%;
+            display: flex;
+            span:nth-child(1) {
+              font-size: 0.5em;
+            }
+            span:nth-child(2) {
+              margin-left: auto;
+              display: inline-block;
+              font-size: 0.5em;
+            }
+          }
+          div:nth-child(2) {
+            margin-top: 0.25em;
+            h3 {
+              font-weight: $fw800;
+              font-size: 0.75em;
+            }
+          }
+        }
+      }
+      div.checking-data-divs:nth-child(6) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        p {
+          font-weight: bold;
+          font-size: 0.5em;
+        }
+      }
+    }
+  }
+
+  /////////////////// backgrounds
+  div#template {
+    width: $max-Width;
+    height: $max-Height;
+    position: absolute;
+    background-image: url("../images/phone-template.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale($scale);
+    z-index: 2;
+  }
+  #wrapper-content {
+    margin: 0 auto;
+    width: $minWidth;
+    height: $max-Height;
+    background-color: $backGround;
+    position: relative;
+    z-index: 1;
+    transform: scale($scale);
+    border-radius: $radius1;
+    div#top-background-gradient {
+      position: relative;
+      background-image: linear-gradient($gradient1);
+      border-radius: $radius1 $radius1 0 0;
+      height: 170px;
+    }
+    div#bottom-white-background {
+      position: relative;
+      height: 100px;
+      background-color: $white;
+      top: 25.8em;
+    }
+    div#full-gradient-background {
+      position: absolute;
+      top: 0;
+      height: $max-Height;
+      width: 100%;
+      border-radius: $radius1;
+      // background-image: linear-gradient($gradient1);
+    }
+  }
+}
