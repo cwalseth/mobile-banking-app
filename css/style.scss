@@ -45,9 +45,12 @@ $HelveticaNeue: HelveticaNeue;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    img#logo {
-      width: 200px;
-      height: auto;
+    #UNITY_BANK {
+      tspan {
+        font-family: $HelveticaNeue;
+        font-size: 37px;
+        font-weight: 700;
+      }
     }
     section#login-form-section {
       width: 100%;
@@ -207,6 +210,10 @@ $HelveticaNeue: HelveticaNeue;
           width: 100%;
           img {
             width: 30%;
+            transition: all .2s ease-in-out;
+          }
+          img:hover {
+            transform: scale(1.1);
           }
         }
       }
@@ -391,7 +398,7 @@ $HelveticaNeue: HelveticaNeue;
       height: $max-Height;
       width: 100%;
       border-radius: $radius1;
-      // background-image: linear-gradient($gradient1);
+      background-image: linear-gradient($gradient1);
     }
   }
 }

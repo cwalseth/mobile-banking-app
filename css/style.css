@@ -49,9 +49,10 @@
           justify-content: center;
 }
 
-.container section#login img#logo {
-  width: 200px;
-  height: auto;
+.container section#login #UNITY_BANK tspan {
+  font-family: HelveticaNeue;
+  font-size: 37px;
+  font-weight: 700;
 }
 
 .container section#login section#login-form-section {
@@ -272,6 +273,13 @@
 
 .container section#welcome-main-content div#welcome-middle-content div#deal div#deal-icons img {
   width: 30%;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.container section#welcome-main-content div#welcome-middle-content div#deal div#deal-icons img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .container section#welcome-main-content div#welcome-bottom-content {
@@ -523,5 +531,6 @@
   height: 693px;
   width: 100%;
   border-radius: 3.5em;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
 }
 /*# sourceMappingURL=style.css.map */
