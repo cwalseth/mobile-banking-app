@@ -1,0 +1,42 @@
+[
+    {
+        "userFName": "Mathew",
+        "yearJoined": 2012,
+        "checkingNum": "Checking...1329",
+        "checkingBal": "$2,694.88",
+        "savingsNum": "Checking...4722",
+        "savingsBal": "$4,699.00"
+    },
+    [
+        {
+        "transaction-date": "Pending",
+        "transaction-amount": "$14.99",
+        "transactionPurchase": "PURCHASE St Paul BP",
+        "transactionCard": "CARD1329"
+        },
+        {
+        "transaction-date": "Pending",
+        "transaction-amount": "$28.99",
+        "transactionPurchase": "PURCHASE APPLE.COM",
+        "transactionCard": "CARD 1329"
+        },
+        {
+        "transaction-date": "Pending",
+        "transaction-amount": "$64.59",
+        "transactionPurchase": "PURCHASE AMAZON",
+        "transactionCard": "CARD 1329"
+        },
+        {
+        "transaction-date": "2/17/22",
+        "transaction-amount": "$154.99",
+        "transactionPurchase": "PURCHASE TARGET MN",
+        "transactionCard": "CARD 1329"
+        },
+        {
+        "transaction-date": "2/13/22",
+        "transaction-amount": "$20.99",
+        "transactionPurchase": "PURCHASE Car Wash St Paul BP",
+        "transactionCard": "CARD 1329"
+        }
+    ]
+]

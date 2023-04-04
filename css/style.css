@@ -284,7 +284,7 @@
 
 .container section#welcome-main-content div#welcome-bottom-content {
   position: relative;
-  top: 5.25em;
+  top: 5.75em;
   height: 120px;
   width: 80%;
 }
@@ -299,7 +299,7 @@
 }
 
 .container section#welcome-main-content div#welcome-bottom-content div div {
-  margin-top: 0.5em;
+  margin-top: 1.25em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
